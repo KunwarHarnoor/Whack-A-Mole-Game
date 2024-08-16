@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/Untitled\ design\ \(2\).png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+
+#board{
+    width: 540px;
+    height: 540px;
+
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(/soil.png);
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+#board div{
+    background-image: url(/pipe.png);
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+}
+
+#board div img{
+    width: 100px;
+    height: 100px;
+}
+
+#resetbtn{
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: black;
+    margin-top: 30px;
+    color: white;
+    box-shadow: 0 0 20px black;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+#resetbtn:hover{
+    transform: scale(1.1);
+    transition: 0.2s all;
+}
+
+
